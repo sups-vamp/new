@@ -1,0 +1,130 @@
+.navbar {
+    background-color: black !important;
+}
+
+
+.caption{
+  width: 100%;
+  height: inherit;
+    opacity: 1;
+    color:white;
+    font-family:monospace;
+    font-size: 120px;
+    text-align: center;
+    background-attachment:fixed;
+  background-color:  rgba(0, 0, 0, 0.6);
+}
+@media (min-width: 1281px) {
+  
+  .parallax{
+    background: url(../images/DSC04436.JPG);
+    width: 100%;
+  height: 90vh; 
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .parallax{
+    background: url(../images/DSC04436.JPG);
+    width: 100%;
+  height: 100vh; 
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .parallax{
+    background: url(../images/DSC04436.JPG);
+    width: 100%;
+  height: 100vh; 
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .parallax{
+    background: url(../images/DSC04436.JPG);
+    width: 100%;
+  height: 100vh; 
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .parallax{
+    background: url(../images/DSC04436.JPG);
+    width: 100%;
+  height: 100vh; 
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .parallax{
+    background: url(../images/DSC04436.JPG);
+    width: 100%;
+  height: 100vh; 
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+}
+.black{
+    background-color: black;
+    width:100%;
+    height:inherit;
+    color:white;
+}
+.white{
+    background-color: white;
+    width:100%;
+    height:inherit;
+}
+.btn-outline-dark{
+    color:white;
+    border-color: white;
+    transition: 0.5s;
+}
+.btn-outline-dark:hover{
+    color:black;
+    background-color: white;
+}
+.fa-facebook,.fa-instagram,.fa-twitter,.fa-github,.fa-linkedin{
+  font-size: 20px;
+  color:white;
+  background-color: black;
+/*  border:solid 2px white;*/
+  padding: 5px 6px;
+/*  border-radius: 10px;*/
+  margin:3px;
+transition: 0.3s;
+}
+.fa-facebook{
+padding: 5px 9px;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-github:hover,.fa-linkedin:hover{
+background-color: white;
+
+color:black;
+}
